@@ -1,0 +1,133 @@
+body {
+  background-color: #000000;
+}
+.container-left {
+  height: calc(110vh);
+  display: flex;
+  background-image: url("./lohp_1302x955.png");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+}
+.icon1 {
+  width: inherit;
+}
+.icon2-1 {
+  position: relative;
+  display: flex;
+  margin-left: 20px;
+}
+.icon2 {
+  width: 50px;
+}
+
+.title1 {
+  position: relative;
+  padding: 0;
+  color: #e7e9ea;
+  margin-top: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 3.5rem;
+}
+.title2 {
+  position: relative;
+  color: #e7e9ea;
+  padding: 0;
+  margin-left: 20px;
+  margin-top: 40px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.btn {
+  width: 350px;
+  height: 40px;
+  background-color: #e7e9ea;
+  margin-top: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 80px;
+  margin-left: 20px;
+}
+.google-logo1 {
+  margin-top: 10px;
+}
+.btn:hover {
+  color: #e7e9ea;
+  background-color: #1d9bf0;
+}
+.apple-logo1 svg {
+  width: 25px;
+}
+.google-logo1 svg {
+  width: 25px;
+}
+.line {
+  width: 53%;
+  text-align: center;
+  border-bottom: 1px solid #2f3336;
+  line-height: 0.1em;
+  margin: 5px 0 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.line span {
+  background: #000000;
+  color: #e7e9ea;
+  padding: 0 5px;
+}
+.sign3 {
+  background-color: #1d9bf0;
+  color: #e7e9ea;
+}
+.sign3:hover {
+  background-color: #e7e9ea;
+  color: #1d9bf0;
+}
+.para1 {
+  color: #71767b;
+  font-size: 11px;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 350px;
+}
+.para1 a {
+  text-decoration: none;
+  color: #1d9bf0;
+}
+.para1 a:hover {
+  text-decoration: underline;
+}
+.para2 {
+  color: #e7e9ea;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.sign4 {
+  color: #1d9bf0;
+  background-color: #000000;
+  border: 1px solid #536471;
+}
+.navbar {
+  font: inherit;
+  color: #71767b;
+  display: flex;
+  align-items: baseline;
+  height: 40px;
+  justify-content: center;
+  background-color: #000000;
+  font-size: 14px;
+  margin: 4px 0px;
+  padding: 0px 16px 0px 0px;
+}
+.navbar a {
+  color: #71767b;
+  text-decoration: none;
+  margin: 4px 0px;
+  padding: 0px 8px 0px 0px;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
